@@ -124,6 +124,14 @@ const homeLinks: HomeLink[] = [
     textColor: 'dark',
     routerLink: '/contact',
   },
+  {
+    displayName: 'Sevärdheter',
+    iosIcon: speedometerOutline,
+    mdIcon: speedometerSharp,
+    iconColor: 'warning',
+    textColor: 'dark',
+    routerLink: '/places',
+  },
 ];
 
 interface Props {}

@@ -36,7 +36,7 @@ import WorkService from './pages/WorkService';
 import SubWorkService from './pages/SubWorkService';
 import NoMatch from './pages/NoMatch';
 import Recycling from './pages/Recycling';
-
+import Places from './pages/Places';
 import Phone from './pages/Phone';
 
 
@@ -89,7 +89,7 @@ const App: React.FC = () => {
           <Route path="/work-service" component={WorkService} exact />
           <Route path="/work-service/:id" component={SubWorkService} exact />
           <Route path ="/recycling/" component={Recycling} exact />
-
+          <Route path ="/places/" component={Places} exact />
           <Route path ="/contact/" component={Contact} exact />
           <Route path ="/contact/phone" component={Phone} exact />
 
